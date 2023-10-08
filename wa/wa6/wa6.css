@@ -1,0 +1,100 @@
+h1 {
+    position: absolute;
+    top: 2mm;
+    left: 2mm;
+    width: 128px;
+    height: 128px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+h2 {
+    position: absolute;
+    top: 12mm;
+    left: 2mm;
+    width: 128px;
+    height: 128px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+h3 {
+    position: absolute;
+    top: 2mm;
+    left: 23mm;
+    width: 128px;
+    height: 128px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+h4 {
+    position: absolute;
+    top: 12mm;
+    left: 23mm;
+    width: 128px;
+    height: 128px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+h5 {
+    position: absolute;
+    top: 22mm;
+    left: 2mm;
+    width: 128px;
+    height: 128px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.box {
+    width: 20mm;
+    height: 10mm;
+    margin: 2mm;
+    background-color: purple;
+    border: 1mm solid black;
+    border-bottom: 1px solid black;
+}
+
+.box2 {
+    width: 20mm;
+    height: 10mm;
+    margin: 2mm;
+    background-color: gold;
+    border: 1mm solid black;
+    border-bottom: 1px solid black;
+}
+
+.box3{
+    width: 15mm;
+    height: 10mm;
+    margin: 2mm;
+    background-color: darkgray;
+    border: 1mm solid black;
+    border-bottom: 1px solid black;
+}
+
+.box4{
+    width: 36mm;
+    height: 5mm;
+    margin: 2mm;
+    background-color: black;
+    border: 1mm solid black;
+    border-bottom: 1px solid black;
+}
