@@ -98,3 +98,29 @@ h5 {
     border: 1mm solid black;
     border-bottom: 1px solid black;
 }
+
+.logo
+{
+    font-style: italic;
+    position: absolute;
+    top: 2mm;
+    right: 20mm;
+    width: 128px;
+    height: 128px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.espn
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: red;
+}   
+
+.playoffs
+{
+    font-size: 15px;
+}
