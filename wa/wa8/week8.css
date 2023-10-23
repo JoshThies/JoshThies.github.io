@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: limegreen;
+}
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color:navy;
+}
+
+
+img{
+    width:30vw;
+    height: 30vh;
+}
+
+red-ball{
+    background-color: lightskyblue;
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    position: absolute;
+    top:50vh;
+    transition: 2s;
+}
+
+red-ball:hover{
+    background-color: red;
+}
