@@ -1,0 +1,60 @@
+html {
+    background-color: beige;
+}
+
+.top {
+    background-color: brown;
+    font-size: 4em;
+    text-align: center;
+    padding: 0.5em;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+.flex-container {
+    display: flex;
+    background-color: brown;
+    font-size: 2em;
+    justify-content: center;
+    color: black;
+    padding-bottom: 0.5em;
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.navi {
+    color: black;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+a:hover {
+    background-color: #8A3324;
+}
+
+.summary {
+    font-size: 1.8em;
+    text-align: center;
+    padding: 1em;
+}
+
+.fall {
+    position: sticky;
+    font-style: italic;
+    font-size: 4em;
+    text-align: center;
+}
+
+.fallTheme {
+    width: 400px;
+    background-color: palevioletred;
+    border: 0.2em solid black;
+    border-radius: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
