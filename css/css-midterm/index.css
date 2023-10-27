@@ -3,7 +3,7 @@ html {
 }
 
 .top {
-    background-color: blue;
+    background-color: brown;
     font-size: 4em;
     text-align: center;
     padding: 0.5em;
@@ -14,7 +14,7 @@ html {
 .flex-container {
     display: flex;
     background-color: brown;
-    font-size: 2em;
+    font-size: 1.8em;
     justify-content: center;
     color: black;
     padding-bottom: 0.5em;
@@ -38,9 +38,10 @@ a:hover {
 }
 
 .summary {
-    font-size: 1.8em;
+    font-size: 1.5em;
     text-align: center;
     padding: 1em;
+    font-style: italic;
 }
 
 .fall {
