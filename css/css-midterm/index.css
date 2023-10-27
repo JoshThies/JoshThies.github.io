@@ -23,6 +23,7 @@ html {
 .flex-container2 {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .navi {
@@ -32,7 +33,7 @@ html {
 }
 
 a:hover {
-    background-color: #8A3324;
+    background-color: #8B0000;
 }
 
 .summary {
@@ -42,7 +43,6 @@ a:hover {
 }
 
 .fall {
-    position: sticky;
     font-style: italic;
     font-size: 4em;
     text-align: center;
@@ -55,6 +55,9 @@ a:hover {
     border-radius: 1.5em;
     padding-left: 1em;
     padding-right: 1em;
-    margin-left: 1em;
-    margin-right: 1em;
-  }
+    margin: 1em;
+}
+
+div.fallTheme:hover {
+    background-color: #8B0000;
+}
