@@ -1,0 +1,49 @@
+html {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: pink;
+}
+
+h1 {
+  text-align: center;
+  color: aquamarine;
+  text-shadow: 1px 1px 1px black;
+}
+
+body {
+  width: 416px;
+  margin: 0 auto;
+}
+
+.full-img {
+  position: relative;
+  display: block;
+  width: 416px;
+  height: 240px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 416px;
+  height: 240px;
+  background-color: rgba(0,0,0,0);
+}
+
+button {
+  border: 0;
+  background: black;
+  color: aquamarine;
+  border: 1px solid #999;
+  position: absolute;
+  cursor: pointer;
+  bottom: 2px;
+  right: 2px;
+}
+
+.thumb-bar img {
+  display: block;
+  width: 20%;
+  float: left;
+  cursor: pointer;
+}
