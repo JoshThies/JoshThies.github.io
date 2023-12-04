@@ -1,0 +1,92 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    letter-spacing: 5px;
+    padding: 8px;
+    display: inline-block;
+    text-align: center;
+}
+
+#buttonContainer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center; /* Center-aligns the content within the container */
+    margin-top:20px;
+    margin-right: 70%;
+    min-height: 100px;
+}
+
+.container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 20px; /* Adding margin below the display */
+}
+
+.regular {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 50px;
+}
+
+#myButton {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: fixed;
+    margin-top: 20px;
+    background-color: lime;
+    font-size: 200px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#displayContainer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#resetButton {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 44.5%;
+    background-color: pink;
+    border-radius: 5px;
+}
+
+#createVanishingButton{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200px;
+    margin-left: 28.5%;
+    margin-bottom: 50px;
+    background-color: pink;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+
+#newDivId {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-top: 250px;
+}
+
+#submitButton {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: pink;
+    border-radius: 5px;
+}
+
