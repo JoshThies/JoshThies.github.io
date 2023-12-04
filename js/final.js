@@ -15,7 +15,7 @@ function createButton() {
 
         var button = document.createElement("button");
         button.id = "myButton";
-        button.innerHTML = "Click me!";
+        button.innerHTML = "Click Me!";
         buttonContainer.appendChild(button);
 
         var countDisplay = document.createElement("span");
