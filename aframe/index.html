@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A Timeless Drive</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- 360-degree image as the sky -->
+      <a-sky src="TimeSky.jpg" rotation="0 -90 0"></a-sky>
+
+      <!-- 3D models -->
+      <a-assets>
+        <a-asset-item id="car" src="porsche.glb"></a-asset-item>
+        <a-asset-item id="lamp" src="lamp.glb"></a-asset-item>
+        <a-asset-item id="bench" src="park_bench.glb"></a-asset-item>
+        <a-asset-item id="road" src="road_section.glb"></a-asset-item>
+      </a-assets>
+
+      <!-- Positioning the GLB objects -->
+      <a-entity gltf-model="#car" position="-5 0 -3"></a-entity>
+      <a-entity gltf-model="#lamp" position="-2 1.9 -3" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#lamp" position="-8 1.9 -13" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#lamp" position="-8 1.9 7" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#bench" position="-1 0 7" scale="1.5 1.5 1.5" rotation="0 90 0"></a-entity>
+      <a-entity gltf-model="#bench" position="-9 0 -3" scale="1.5 1.5 1.5" rotation="0 -90 0"></a-entity>
+      <a-entity gltf-model="#bench" position="-1 0 -13" scale="1.5 1.5 1.5" rotation="0 90 0"></a-entity>
+      <a-entity gltf-model="#road" position="-5 0 -3" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#road" position="-5 0 -8" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#road" position="-5 0 -13" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#road" position="-5 0 -18" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#road" position="-5 0 -23" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#road" position="-5 0 2" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#road" position="-5 0 7" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#road" position="-5 0 12" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#road" position="-5 0 17" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#road" position="-5 0 22" scale="2 2 2"></a-entity>
+
+
+      <!-- Camera -->
+      <a-camera position="-5 2 0"></a-camera>
+    </a-scene>
+  </body>
+</html>
