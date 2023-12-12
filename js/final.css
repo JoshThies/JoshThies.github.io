@@ -1,6 +1,7 @@
 html {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: linear-gradient(skyblue, magenta);
+    background-repeat: no-repeat;
 }
 
 h1 {

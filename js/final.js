@@ -39,7 +39,7 @@ function createButton() {
             removeButton();
             i++;
             createButton();
-        }, 1000); // One-second timer
+        }, 1500); // One-second timer
     }
     else{
         if (!created){
