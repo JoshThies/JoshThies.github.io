@@ -1,6 +1,6 @@
 html {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: bisque;
+    background-image: linear-gradient(skyblue, magenta);
 }
 
 h1 {
@@ -43,9 +43,10 @@ span {
 #myButton {
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: fixed;
-    background-color: lime;
+    background-color: rgb(87, 255, 87);
     font-size: 200px;
     padding: 20px;
+    min-height: 300px;
     border-radius: 5px;
 }
 
@@ -57,7 +58,8 @@ span {
 #resetButton {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 44.5%;
-    background-color: pink;
+    background-color: black;
+    color:white;
     border-radius: 5px;
 }
 
@@ -66,7 +68,8 @@ span {
     font-size: 200px;
     margin-left: 28.5%;
     margin-bottom: 50px;
-    background-color: pink;
+    background-color: black;
+    color:white;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 30px;
@@ -85,7 +88,8 @@ span {
 #submitButton {
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: pink;
+    background-color: black;
+    color:white;
     border-radius: 5px;
 }
 
