@@ -1,0 +1,22 @@
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%; 
+}
+
+html {
+    background-color: black;
+  }
+
+.navbar{
+    text-align: center;
+    font-size: 40pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50pt;
+}
