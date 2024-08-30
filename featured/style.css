@@ -1,0 +1,91 @@
+html {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+}
+
+.navbar{
+  text-align: center;
+  font-size: 40pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50pt;
+  color: white;
+  text-shadow: 1px 1px 1px grey;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  color: white;
+  text-shadow: 1px 1px 1px grey;
+}
+
+.img {
+  width: 208px;
+  height: 300px;
+}
+
+p {
+  color: white;
+  text-align: center;
+  padding-top: 15mm;  
+}
+
+video {
+  padding-left: 140px;
+}
+
+.big {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20pt;
+  padding-top: 0mm;
+  padding-bottom: 10mm;
+}
+
+.normal {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.body {
+  width: 208px;
+  margin: 0 auto;
+}
+
+.displayed-img {
+  position: relative;
+  display: block;
+  width: 208px;
+  height: 300px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 208px;
+  height: 120px;
+  background-color: rgba(0,0,0,0);
+}
+
+button {
+  border: 0;
+  background: black;
+  color: aquamarine;
+  border: 1px solid #999;
+  position: absolute;
+  cursor: pointer;
+  bottom: 2px;
+  right: 2px;
+}
+
+.thumb-bar img {
+  display: block;
+  width: 16.6666%;
+  float: left;
+  cursor: pointer;
+}

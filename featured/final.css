@@ -4,6 +4,24 @@ html {
     background-repeat: no-repeat;
 }
 
+.navbar{
+    text-align: center;
+    font-size: 40pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    font-size: 30pt;
+    padding-left: 50px;
+}
+
+.B{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 16pt; 
+    text-align: left;
+}
+
 h1 {
     text-align: center;
 }

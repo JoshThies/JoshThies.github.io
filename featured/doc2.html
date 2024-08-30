@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Project 3</title>
 </head>
 <body>
@@ -19,5 +19,58 @@
         <a href="/featured/doc3.html">Project 4</a>
     </div>
     
+    <h1>Oral Hygiene Reminder</h1>
+    <p class="big"> A box to annoy the bejesus out of you if you forget to brush or floss your teeth </p>
+
+    <div class="body">
+        <h2> Mark 1</h2>
+        <img class="img" src="images/Mk1.jpg"></img>
+        <h2> Mark 2</h2>
+        <div class="full-img">
+        <img class="displayed-img" src="images/FullBox.jpg" alt="Hygeine Box">
+        <div class="overlay"></div>
+        </div>
+
+        <div class="thumb-bar">
+        </div>
+        <p>(Click Images to Display)</p>
+    </div>
+    <video width="960" height="590" controls>
+        <source src="images/IMG_2363.mp4" type="video/mp4">
+        <source src="images/IMG_2363.ogg" type="video/ogg">
+    </video>
+
+    <p class="normal">
+        This project was based on a pet peeve. I hate forgetting to brush or floss my teeth before getting into bed, 
+        as I usually remember once I'm cozy and no longer want to get up and do that. However, not keeping my teeth
+        clean every night makes me feel like a disgusting human being, so I end up begrudgingly turning the lights back on,
+        getting out of bed, and angrily tending to my mouth.
+        <br>
+        <br>
+        My way of fixing this problem is simple. I needed to find a way to remind myself of my poor pearly whites (ok maybe yellowish whites)
+        before taking off all of my clothes and getting into bed each night. What is something I do before getting into bed?
+        Turning out the lights. Bada Bing Bada Boom we have our trigger. If I turn out the lights before cleaning the ol' chompers,
+        sound the alarms. 
+        <br>
+        <br>
+        To make this work, I used two sensors. One to track the light levels in the room, and one to detect whether or not the hygienic tool in question had been moved.
+        If I turn the lights out after the toothbrush/floss have been moved, no problem. If they haven't, a speaker will buzz, letting me know I should do that before I get into bed.
+        <br>
+        <br>
+        In my first iteration, I encountered some problems. I used a photoresistor to detect the light levels, but this was inconsistent. Photoresistors
+        give different readings dependent on the voltage in the circuit. When plugged into my computer, I would get values I could see in the serial
+        monitor that I could work with to get my desired result. When plugged into a battery, I had no idea what readings I was getting, but they
+        weren't the same, so I couldn't write my code accordingly. I also had to hold every to make it work, but that was a much more practical fix.
+        <br>
+        <br>
+        For my second iteration, in addition to a wooden box enclosure that held every component securely, I switched the photoresistor for an ambient
+        light sensor. This was a pain to make work, as the documentation and arduino library data was shaky at best, but it did eventually do the trick.
+        Along with the ultrasonic sensor and speaker, I now had a battery powered, fully operational hygiene reminder to never let me be cozy but unclean again.
+        <br>
+        <br>
+        <a href="ArduinoCode.txt">Link to the code</a>
+    </p>
+    
+    <script src="main.js"></script>
 </body>
 </html>

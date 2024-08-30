@@ -58,7 +58,7 @@ function createButton() {
                 // Set attributes or properties for the div
                 newDivElement.id = "newDivId"; // Set an ID for the new div
                 newDivElement.textContent = "Thank you for your submission"; // Set text content for the div
-
+                
                 // Find the body element or any other element where you want to append the new div
                 var body = document.body;
 
