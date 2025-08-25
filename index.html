@@ -1,64 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Josh Thies</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body class="bg-[#d0e8ff] font-sans m-0">
-    <!-- Hero / top section -->
-    <div
-      class="h-screen flex flex-col items-center justify-center
-             bg-cover bg-center bg-white/40 bg-blend-overlay"
-      style="background-image: url('img/thetub.jpg');"
-    >
-      <h1 class="text-center text-8xl font-bold">Josh Thies</h1>
-      <h2 class="text-center text-2xl mt-4">
-        Game Developer<br>Musician<br>Sound Engineer
-      </h2>
+<head>
+  <meta charset="UTF-8">
+  <title>Josh Thies | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    .fancy-font {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+</head>
+<body class="m-0 p-0 font-sans">
+
+  <!-- Hero Section -->
+  <section class="relative h-screen w-full bg-cover bg-center flex flex-col justify-center items-center text-white"
+           style="background-image: url('joshpic2.jpg');">
+    
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black bg-opacity-10"></div>
+    
+    <!-- Content -->
+    <div class="relative text-center z-10">
+      <h1 class="text-9xl fancy-font mb-4" style="color:whitesmoke">Josh Thies</h1>
+      <p class="text-5xl fancy-font mb-4" style="color:rgb(36, 6, 36)">Game Developer • Sound Engineer • Musician</p>
     </div>
-<div class="relative h-screen flex flex-col items-center justify-center bg-[#d0e8ff] overflow-hidden">
+  </section>
 
-  <!-- Parallax background blobs -->
-  <div
-    class="absolute inset-0 -z-10"
-    onmousemove="document.querySelectorAll('[data-parallax]').forEach(el => {
-      const speed = parseFloat(el.dataset.parallax);
-      el.style.transform = `translate(${event.clientX * speed}px, ${event.clientY * speed}px)`;
-    })"
-  >
-    <div
-      data-parallax="0.01"
-      class="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-purple-300 rounded-full blur-[120px] opacity-30"
-    ></div>
-    <div
-      data-parallax="-0.015"
-      class="absolute bottom-1/3 right-1/4 w-[400px] h-[400px] bg-blue-200 rounded-full blur-[100px] opacity-30"
-    ></div>
+<!-- Creator Of + Video Section -->
+<section class="bg-gradient-to-b from-blue-600 to-blue-900 text-white text-center py-16 px-6">
+  <p class="text-xl mb-6 italic">Creator of</p>
+  <a href="https://autonautilus.com" target="_blank">
+    <img src="NameLogo.png" alt="AutoNautilus Logo" 
+         class="mx-auto max-h-48 w-auto hover:scale-105 transition-transform duration-300">
+  </a>
+
+  <!-- Video Section -->
+  <div class="relative max-w-4xl mx-auto shadow-lg rounded-2xl overflow-hidden mt-4">
+    <div class="relative w-full" style="padding-top: 56.25%;">
+      <iframe 
+        class="absolute top-0 left-0 w-full h-full"
+        src="https://www.youtube.com/embed/DTZA3455RuU?controls=1&modestbranding=1&rel=0"
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="autoplay; encrypted-media" 
+        allowfullscreen>
+      </iframe>
+    </div>
   </div>
 
-  <!-- Foreground content -->
-  <div class="text-center relative z-10">
-    <p class="text-5xl font-bold tracking-wide mb-8 text-gray-800 drop-shadow-sm">
-      <span class="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-blue-500">
-        <br><br>Creator of
-      </span>
-    </p>
+  <section class="py-20 px-6 text-center mt-8" id="pitch">
+    <div class="max-w-3xl mx-auto">
+      <h3 class="text-3xl font-bold mb-6">Explore the Depths</h3>
+      <p class="text-xl leading-relaxed text-blue-100">
+        Auto-Nautilus is an underwater action-adventure game with obstacles you must overcome both in and out of your mech suit. Explore ruins, navigate puzzles, and watch out for the local sealife as you venture further in further into the depths of these perilous waters.
+      </p>
+    </div>
+  </section>
 
-    <a href="https://autonautilus.com/">
-      <img
-        src="NameLogo.png"
-        alt="Autonautilus Logo"
-        class="h-[80vh] w-auto object-contain mx-auto transition-transform duration-500 hover:scale-105 drop-shadow-2xl"
-      />
-    </a>
+  <h3 class="text-3xl font-bold mb-6">Listen to the Soundtrack!</h3>
+  <div class="max-w-4xl mx-auto shadow-lg rounded-2xl overflow-hidden mt-">
+    <iframe 
+      data-testid="embed-iframe"
+      style="border-radius:12px"
+      src="https://open.spotify.com/embed/album/5jbetaO7FJERlpGgUMSNKq?utm_source=generator"
+      width="100%" 
+      height="352" 
+      frameborder="0" 
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      allowfullscreen
+      loading="lazy">
+    </iframe>
   </div>
-</div>
+</section>
 
-
-
-  </body>
+<!-- To the Peak! Section -->
+<section class="bg-green-200 text-white text-center py-16 px-6">
   
-</html>
+  <!-- Image Title -->
+  <img src="peakbox.jpg" alt="To the Peak! Logo" class="mx-auto mb-8 max-w-xl w-full">
 
+  <p class="text-lg max-w-3xl mx-auto mb-12" style="color:#245436;">
+    *To the Peak!* is a thrilling board game where players race to climb the summit of a mountain. 
+    Strategize your moves, overcome obstacles, and be the first to reach the top! 
+    Perfect for friends, family, and anyone who loves adventure and strategy.
+  </p>
+  
+  <!-- Card Layout -->
+  <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+    <!-- Card 1: Terrains and Classes -->
+    <a href="terrains.jpg" target="_blank" class="block">
+      <div class="bg-white bg-opacity-20 rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300">
+        <img src="terrains.jpg" alt="Terrains and Classes" class="w-full h-64 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2" style="color:#1F4B33;">Terrains and Classes</h3>
+          <p class="text-sm" style="color:#1F4B33;">Both the player classes and the mountain itself made of cards to fit a travel sized box.</p>
+        </div>
+      </div>
+    </a>
+
+    <!-- Card 2: Components -->
+    <a href="Components.png" target="_blank" class="block">
+      <div class="bg-white bg-opacity-20 rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300">
+        <img src="Components.png" alt="Game Components" class="w-full h-auto object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2" style="color:#1F4B33;">Game Components</h3>
+          <p class="text-sm" style="color:#1F4B33;">Colorful pieces, cards, and boards designed to enhance strategic gameplay.</p>
+        </div>
+      </div>
+    </a>
+
+    <!-- Card 3: Gameplay Scene -->
+    <a href="peaktable.jpg" target="_blank" class="block">
+      <div class="bg-white bg-opacity-20 rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300">
+        <img src="peaktable.jpg" alt="Gameplay Scene" class="w-full h-auto object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2" style="color:#1F4B33;">Gameplay Scene</h3>
+          <p class="text-sm" style="color:#1F4B33;">Engaging turns and challenges make every game exciting and unique.</p>
+        </div>
+      </div>
+    </a>
+
+  </div>
+  <!-- Contact Me Section -->
+  <section class="bg-gray-900 text-white text-center py-16 px-6 mt-4">
+    <h2 class="text-3xl font-sans mb-6">Contact Me!</h2>
+    <p class="text-lg mb-4">Have a question or want to collaborate? Reach out to me at:</p>
+    <a href="mailto:jzt454@gmail.com" class="text-blue-400 hover:text-blue-600 transition-colors duration-300 text-lg font-medium">
+      jzt454@gmail.com
+    </a>
+  </section>
+</section>
+
+
+</body>
+</html>
